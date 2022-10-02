@@ -1,4 +1,4 @@
-# vscode-hygen
+# hygen-vscode
 
 Hygen is great, having it inside VSCode is even better. Based on https://github.com/jondot/vscode-hygen.
 Right click on a folder to select where to generate your code, select the Hygen option.

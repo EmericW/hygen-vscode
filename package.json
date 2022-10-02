@@ -1,6 +1,6 @@
 {
-  "name": "vscode-hygen",
-  "displayName": "vscode-hygen",
+  "name": "hygen-vscode",
+  "displayName": "VSCode - Hygen",
   "description": "",
   "version": "1.0.0",
   "publisher": "emericwarnez",
@@ -15,13 +15,13 @@
     "url": "https://github.com/EmericW/vscode-hygen.git"
   },
   "activationEvents": [
-    "onCommand:vscode-hygen.generate"
+    "onCommand:hygen-vscode.generate"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-hygen.generate",
+        "command": "hygen-vscode.generate",
         "title": "Hygen"
       }
     ],
@@ -29,7 +29,7 @@
       "explorer/context": [
         {
           "when": "explorerResourceIsFolder",
-          "command": "vscode-hygen.generate"
+          "command": "hygen-vscode.generate"
         }
       ]
     }

@@ -4,10 +4,10 @@ import { availableActions, Logger, resolve, runner } from 'hygen';
 import Prompter from './prompter';
 
 export function activate(context: vscode.ExtensionContext) {
-	console.log('vscode-hygen is now active.');
+	console.log('hygen-vscode is now active.');
 	let workspaceFolders = vscode.workspace.workspaceFolders || [];
 
-	let disposable = vscode.commands.registerCommand('vscode-hygen.generate', async (event) => {
+	let disposable = vscode.commands.registerCommand('hygen-vscode.generate', async (event) => {
 		let destination = event?.path;
 
 		if (!event || !destination) {
