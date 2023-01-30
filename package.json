@@ -4,6 +4,7 @@
   "description": "",
   "version": "1.0.0",
   "publisher": "emericwarnez",
+  "icon": "media/hygen.png",
   "engines": {
     "vscode": "^1.71.0"
   },
