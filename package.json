@@ -2,7 +2,7 @@
   "name": "hygen-vscode",
   "displayName": "VSCode - Hygen",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "emericwarnez",
   "icon": "media/hygen.png",
   "engines": {
