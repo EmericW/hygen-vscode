@@ -65,11 +65,11 @@ export default class Prompter {
     for (const prompt of prompts) {
       const { type, name } = prompt;
         if (type === 'confirm') {
-          answers[name] = handleConfirmPrompt(prompt);
+          answers[name] = await handleConfirmPrompt(prompt);
         } else if (type === 'input') {
-          answers[name] = handleInputPrompt(prompt);
+          answers[name] = await handleInputPrompt(prompt);
         } else if (type === 'list') {
-          answers[name] = handleListPrompt(prompt);
+          answers[name] = await handleListPrompt(prompt);
         }
     }
 
